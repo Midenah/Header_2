@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header 2</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-blue-800 bg-lHeading text-white h-[100vh] overflow-x-hidden">
+    <header class="py-6 px-8 lg:py-[2rem] lg:px-[6rem]">
+      <nav class="jtflex">
+        <div class="font-bold text-[24px]">Startup 3</div>
+          <ul class="hidden lg:jtflex ">
+          <li class="font-bold">Subscribe</li>
+          <li class="font-bold">Features</li>
+          <li class="but">Sign Up</li>
+          </ul>
+          <div class="dropdown lg:hidden">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <div class="menu-btn text-4xl flex lg:hidden">
+              <i class="bx bx-menu cursor-pointer"></i>
+            </div>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-normal dropdown-content mt-3 p-[3rem] w-[100vw] -ml-[15rem] shadow bg-lBlue text-white font-bold text-start rounded-box space-y-4">
+            <li class="font-bold">Subscribe</li>
+            <li class="font-bold">Features</li>
+            <li class="font-black">Sign Up</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero mt-1">
+        <h1
+          class="text-[40px] text-center mb-36 mt-20 lg:text-[72px] font-bold w-full md:w-[60%] leading-normal lg:leading-[84px]">
+          Let’s make design fast and easy</h1>
+        <p class="text-[22px] mt-48 text-center w-full lg:w-[50%] md:mt-80 mb-2">
+          The most important part of the Startup is the samples. The samples
+          form a set of 25 usable pages you can use as is or you can add new
+          blocks from UI Kit.
+        </p>
+      </div>
+      
+        <div
+          class=" flex items-center justify-center gap-3 mt-10 flex-col md:flex-row w-full md:w-[max-content] md:pl-56 lg:pl-96 "
+        >
+          <input
+            type="text"
+            placeholder="Your Email"
+            class="btns px-4 py-2 justify-center rounded-full border border-gray-500/60 bg-transparent flex-[70%] lg:ml-24"
+          />
+          <button class="buts flex-[30%] ">Send</button>
+        </div>
+        <p class="text-center mt-4">By signing up, you agree to the Terms of Service</p>
+      </div>
+    </header>
+  </body>
+</html>
